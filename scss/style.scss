@@ -141,7 +141,7 @@ a {
      flex-wrap: wrap;
      background: #EDE6DD;
      overflow-y: auto;
-     scroll-snap-type: Y mandatory;
+     scroll-snap-type: y mandatory;
 }
 
 .header__container {
@@ -227,7 +227,7 @@ a {
           width: 512px;
           margin: 0px 0px 24px 0px;
      }
-     .home-screen__slogan span {
+     .home-screen__slogan h1 {
           color: #1E1928;
           font-family: 'Roboto';
           font-size: 48px;
@@ -244,7 +244,7 @@ a {
           margin: 0px 0px 28px 0px;
      }
 
-     .home-screen__description span:nth-of-type(1) {
+     .home-screen__description p:nth-of-type(1) {
           color: rgba(30, 25, 40, 0.80);
           font-family: Inter;
           font-size: 16px;
@@ -254,7 +254,7 @@ a {
           letter-spacing: 0.252px;
      }
 
-     .home-screen__description span {
+     .home-screen__description p {
           color: rgba(30, 25, 40, 0.80);
           font-family: 'Inter';
           font-size: 18px;
@@ -391,7 +391,7 @@ a {
           cursor: pointer;
      }
 
-          .learn-more p {
+          .learn-more span {
           color: #1E1928;
           text-align: center;
           font-family: Inter;
